@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className='bg-[#6E41E2] text-white pt-16 py-8 flex flex-col items-center space-y-16'>
+    <div className='bg-[#6E41E2] text-white px-4 sm:px-8 pt-16 pb-24 flex flex-col items-center space-y-8 sm:space-y-16'>
       <div className='text-center space-y-4 max-w-xl'>
-        <p className='text-4xl font-bold'>About Mypetslife:</p>
-        <p className='text-lg'>
+        <p className='text-2xl sm:text-4xl font-bold'>About Mypetslife:</p>
+        <p className='sm:text-lg'>
           I am a new pet parent there are many things I&apos;m unaware of but this community in this app is so helpful and amazing. They are always there to answer my queries. I&apos;d recommend everyone to buy this appI am a new pet parent there are many things I&apos;m unaware of but this community in this app is so helpful and amazing. They are always there to answer my queries. I&apos;d recommend everyone to buy this app
         </p>
       </div>
 
-      <Link href="mailto:Feedback@petslife.us"><a className='text-xl font-semibold'>Feedback@petslife.us</a></Link>
+      <Link href="mailto:Feedback@petslife.us"><a className='text-lg sm:text-xl font-semibold'>Feedback@petslife.us</a></Link>
 
       <div className='flex space-x-4'>
         <Link href='/'>

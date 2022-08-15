@@ -1,13 +1,23 @@
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
-import Lick from '../components/Lick'
+import Offers from '../components/Offers'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <div>
-      <Hero />
-      <Lick />
-      <Footer />
+      <Navbar />
+      <div className='snap-y snap-mandatory max-h-screen overflow-y-scroll sm:max-h-[none] sm:overflow-y-auto'>
+        <div className='snap-start snap-always'>
+          <Hero />
+        </div>
+        <div className='snap-start snap-always'>
+          <Offers />
+        </div>
+        <div className='snap-start snap-always'>
+          <Footer />
+        </div>
+      </div>
     </div>
   )
 }
