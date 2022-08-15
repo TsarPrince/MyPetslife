@@ -47,7 +47,7 @@ const Reviews = () => {
           </div>
 
           {/* To handle overflown sections and forced snappings on phone */}
-          <div className='sm:hidden py-24'></div>
+          <div className='sm:hidden py-16'></div>
         </div>
       </div>
     </div>
