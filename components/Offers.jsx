@@ -11,9 +11,9 @@ const Offers = () => {
   
   return (
     <div>
-      <div className='relative max-h-screen overflow-y-scroll sm:max-h-[none] sm:overflow-y-auto snap-y snap-mandatory sm:grid sm:grid-cols-2'>
+      <div className='sm:grid sm:grid-cols-2'>
 
-        {/* Height of the phone overlay is decided by this section's .grow div */}
+        {/* Height of the phone overlay is decided by this section's #grow div */}
         <div className='snap-start snap-always bg-[#DDE9FF] h-screen sm:h-auto flex justify-center'>
           <div className='max-w-xl p-6 px-0 sm:py-28 space-y-16 flex flex-col'>
             <div className='flex flex-col items-center text-center space-y-4'>

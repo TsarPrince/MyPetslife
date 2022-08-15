@@ -11,9 +11,8 @@ export default function Home() {
         <div className='snap-start snap-always'>
           <Hero />
         </div>
-        <div className='snap-start snap-always'>
-          <Offers />
-        </div>
+        {/* Offers component have individual sections using snap-start and snap-slaways */}
+        <Offers />
         <div className='snap-start snap-always'>
           <Footer />
         </div>

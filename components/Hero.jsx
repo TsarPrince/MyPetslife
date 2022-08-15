@@ -19,6 +19,7 @@ const Hero = () => {
         </button>
       </div>
 
+      {/* Background image */}
       <div className='sm:absolute bg-[#F7F3FF] flex items-center justify-center sm:space-x-4 sm:h-screen w-full p-8 xl:pl-56'>
         <img className='hidden lg:block sm:h-5/6' src='/home.gif' alt='home gif'></img>
         <img className='sm:h-5/6' src='/home.gif' alt='home gif'></img>
@@ -50,10 +51,7 @@ const Hero = () => {
 
         {/* Extra spacing for y-overflow on mobile */}
         <div className='py-20 sm:hidden'></div>
-
       </div>
-
-
 
       {/* Hamburger menu overlay */}
       <div id='overlay' className='hidden transition-colors bg-black/80 absolute h-screen w-full top-0'>
@@ -104,10 +102,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-
     </div>
-
   )
 }
 
