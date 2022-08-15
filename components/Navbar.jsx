@@ -3,12 +3,12 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='fixed bottom-0 w-full z-50 bg-white shadow-[0_-5px_10px_0] shadow-[#40404018] flex justify-center items-center space-x-8 py-4 rounded-t-3xl'>
-      <Link href='/'>
-        <a><img className='h-12' src='/google_playstore.png'></img></a>
+    <div className='fixed bottom-0 w-full z-50 bg-white shadow-[0_-5px_10px_0] shadow-[#40404018] flex justify-center items-center space-x-4 p-4 rounded-t-3xl'>
+      <Link href='https://play.google.com/store/apps/details?id=com.app.mypetslife&hl=en&gl=US'>
+        <a target='_blank' rel='noopener'><img className='h-12' src='/google_playstore.png'></img></a>
       </Link>
-      <Link href='/'>
-        <a><img className='h-12' src='/appstore.png'></img></a>
+      <Link href='https://apps.apple.com/in/app/my-pets-life-us/id1548068737'>
+        <a target='_blank' rel='noopener'><img className='h-12' src='/appstore.png'></img></a>
       </Link>
     </div>
   )

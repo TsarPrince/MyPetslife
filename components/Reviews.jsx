@@ -10,7 +10,7 @@ const Reviews = () => {
         </div>
 
         <div className='flex flex-col items-center space-y-16'>
-          <div className='space-y-16 sm:flex sm:space-y-0 sm:space-x-8'>
+          <div className='space-y-16 lg:flex lg:space-y-0 lg:space-x-8'>
             {/* Review card 1 */}
             <div className='relative max-w-[22rem] flex-grow-0 bg-white p-8 rounded-[4rem] shadow-[0_10px_0_0] shadow-purple-300'>
               <div className='flex flex-col justify-center items-center pt-2 space-y-4'>
@@ -33,7 +33,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className='sm:flex sm:space-x-8'>
+          <div className='space-y-16 lg:flex lg:space-y-0 lg:space-x-8'>
             {/* Review card 3 */}
             <div className='relative max-w-[22rem] bg-white p-8 rounded-[4rem] shadow-[0_10px_0_0] shadow-purple-300'>
               <div className='flex flex-col justify-center items-center pt-2 space-y-4'>
