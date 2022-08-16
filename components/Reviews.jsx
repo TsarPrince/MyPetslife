@@ -17,8 +17,12 @@ const Reviews = () => {
                 <div className='absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-full shadow-lg'>
                   <img className='w-16 h-16' src='/reviewer1.png'></img>
                 </div>
-                <p className='text-2xl sm:text-3xl font-bold text-slate-600'>Sonia</p>
-                <p className='sm:text-lg sm:font-semibold text-slate-500 sm:tracking-tight leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
+                <p className='text-2xl sm:text-3xl font-bold text-slate-600'>
+                  Sonia
+                </p>
+                <p className='sm:text-lg font-semibold text-slate-500 sm:tracking-tight leading-tight'>
+                  I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it
+                </p>
               </div>
             </div>
             {/* Review card 2 */}
@@ -27,8 +31,12 @@ const Reviews = () => {
                 <div className='absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-full shadow-lg'>
                   <img className='w-16 h-16' src='/reviewer2.png'></img>
                 </div>
-                <p className='text-2xl sm:text-3xl font-bold text-slate-600'>Rocky</p>
-                <p className='sm:text-lg sm:font-semibold text-slate-500 sm:tracking-tight leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
+                <p className='text-2xl sm:text-3xl font-bold text-slate-600'>
+                  Rocky
+                </p>
+                <p className='sm:text-lg font-semibold text-slate-500 sm:tracking-tight leading-tight'>
+                  It makes pet parenting easy with all the activities and reminder. I am very busy with my job and this app helps me alot to keep track of dog. Also the dog to emotion feature is the best
+                </p>
               </div>
             </div>
           </div>
@@ -40,8 +48,12 @@ const Reviews = () => {
                 <div className='absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-full shadow-lg'>
                   <img className='w-16 h-16' src='/reviewer3.png'></img>
                 </div>
-                <p className='text-2xl sm:text-3xl font-bold text-slate-600'>Sofia</p>
-                <p className='sm:text-lg sm:font-semibold text-slate-500 sm:tracking-tight leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
+                <p className='text-2xl sm:text-3xl font-bold text-slate-600'>
+                  Sofia
+                </p>
+                <p className='sm:text-lg font-semibold text-slate-500 sm:tracking-tight leading-tight'>
+                  I am a new pet parent there are many things I&apos;m unaware of but this community in this app is so helpful and amazing. They are always there to answer my queries. I&apos;d recommend everyone to buy this app
+                </p>
               </div>
             </div>
           </div>
