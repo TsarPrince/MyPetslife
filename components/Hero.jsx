@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <p className='font-josefin-sans text-2xl text-center sm:text-left sm:text-5xl font-bold tracking-tight leading-tight'>One stop solution for all your pet needs!</p>
+            <p className='font-josefin-sans text-3xl text-center sm:text-left sm:text-5xl font-bold tracking-tight leading-tight'>One stop solution for all your pet needs!</p>
           </div>
           <div>
             <ul className='sm:text-xl font-semibold sm:font-normal text-violet-500 sm:text-white'>
