@@ -75,7 +75,7 @@ const Offers = () => {
         </div>
 
         {/* Phone overlay */}
-        <div id='phoneOverlay' className='flex snap-start snap-always justify-center sticky w-full bottom-0 sm:hidden overflow-y-hidden'>
+        <div id='phoneOverlay' className='flex justify-center sticky w-full bottom-0 sm:hidden overflow-y-hidden'>
           <Phone />
         </div>
 
