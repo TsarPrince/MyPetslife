@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
       {/* Main section */}
-      <div className='hero-bg-gradient sm:h-screen px-8 pb-8 sm:pt-32 sm:px-48 relative'>
+      <div className='hero-bg-gradient sm:h-screen px-8 pb-8 sm:pt-24 sm:px-36 relative'>
         <div className='flex flex-col text-[#6E41E2] sm:text-white max-w-lg space-y-4 sm:space-y-16'>
           {/* Top Navbar - Desktop */}
           <div className='hidden sm:block'>
