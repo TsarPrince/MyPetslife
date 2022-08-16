@@ -6,7 +6,7 @@ const Reviews = () => {
       <div className='p-8 md:px-12 md:py-32 space-y-16'>
 
         <div className='flex flex-col items-center text-center space-y-4'>
-          <p className='font-josefin-sans text-2xl sm:text-4xl font-bold tracking-tight text-purple-600'>Reviews from our Pet Parent&apos;s</p>
+          <p className='font-josefin-sans text-3xl sm:text-4xl font-bold tracking-tight text-purple-600'>Reviews from our Pet Parent&apos;s</p>
         </div>
 
         <div className='flex flex-col items-center space-y-16'>
