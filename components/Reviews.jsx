@@ -64,7 +64,7 @@ const Reviews = () => {
         <div>
           <img className='hidden sm:block' src='/reviews_desktop.png'></img>
           <img className='sm:hidden' src='/reviews_mobile.png'></img>
-          <div className='sm:hidden py-24'></div>
+          <div className='sm:hidden py-20'></div>
         </div>
 
       </div>
