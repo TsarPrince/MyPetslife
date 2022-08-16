@@ -6,7 +6,7 @@ const Reviews = () => {
       <div className='p-8 md:px-12 md:py-32 space-y-16'>
 
         <div className='flex flex-col items-center text-center space-y-4'>
-          <p className='text-2xl sm:text-3xl font-bold text-purple-600'>Reviews from our Pet Parent&apos;s</p>
+          <p className='font-josefin-sans text-2xl sm:text-4xl font-bold tracking-tight text-purple-600'>Reviews from our Pet Parent&apos;s</p>
         </div>
 
         <div className='flex flex-col items-center space-y-16'>
@@ -18,7 +18,7 @@ const Reviews = () => {
                   <img className='w-16 h-16' src='/reviewer1.png'></img>
                 </div>
                 <p className='text-2xl sm:text-3xl font-bold text-slate-600'>Sonia</p>
-                <p className='sm:text-lg font-semibold text-slate-500 leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
+                <p className='sm:text-lg sm:font-semibold text-slate-500 sm:tracking-tight leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
               </div>
             </div>
             {/* Review card 2 */}
@@ -28,7 +28,7 @@ const Reviews = () => {
                   <img className='w-16 h-16' src='/reviewer2.png'></img>
                 </div>
                 <p className='text-2xl sm:text-3xl font-bold text-slate-600'>Rocky</p>
-                <p className='sm:text-lg font-semibold text-slate-500 leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
+                <p className='sm:text-lg sm:font-semibold text-slate-500 sm:tracking-tight leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Reviews = () => {
                   <img className='w-16 h-16' src='/reviewer3.png'></img>
                 </div>
                 <p className='text-2xl sm:text-3xl font-bold text-slate-600'>Sofia</p>
-                <p className='sm:text-lg font-semibold text-slate-500 leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
+                <p className='sm:text-lg sm:font-semibold text-slate-500 sm:tracking-tight leading-tight'>I have tried a lot of apps with a similar purpose but this by far the best. Easy to use, highly informative, and beautiful graphics. The pro version is definitely worth it</p>
               </div>
             </div>
           </div>

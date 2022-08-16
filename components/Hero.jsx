@@ -36,10 +36,10 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <p className='text-2xl sm:text-4xl font-bold'>One stop solution for all your pet need!</p>
+            <p className='font-josefin-sans text-2xl text-center sm:text-left sm:text-5xl font-bold tracking-tight leading-tight'>One stop solution for all your pet needs!</p>
           </div>
           <div>
-            <ul className='sm:text-lg text-violet-500 sm:text-white font-semibold'>
+            <ul className='sm:text-xl font-semibold sm:font-normal text-violet-500 sm:text-white'>
               <li><span className='text-rose-400 font-bold mr-2'>+</span> Share your pet&apos;s precious moments!!</li>
               <li><span className='text-rose-400 font-bold mr-2'>+</span> Understand your dog&apos;s emotion!</li>
               <li><span className='text-rose-400 font-bold mr-2'>+</span> Connect with community</li>
