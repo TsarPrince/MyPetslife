@@ -3,12 +3,11 @@ import React from 'react'
 const Reviews = () => {
   return (
     <div className='bg-purple-50 flex justify-center items-center h-full'>
-      <div className='p-8 md:px-12 md:py-28 space-y-16'>
+      <div className='p-8 sm:px-12 sm:py-28 space-y-8 sm:space-y-16'>
 
         <div className='flex flex-col items-center text-center space-y-4'>
           <p className='font-josefin-sans text-3xl sm:text-4xl font-bold tracking-tight text-purple-600'>Reviews from our Pet Parent&apos;s</p>
         </div>
-
 
         {/* <div className='flex flex-col items-center space-y-16'>
           <div className='space-y-16 lg:flex lg:space-y-0 lg:space-x-8'>
@@ -65,7 +64,7 @@ const Reviews = () => {
         <div>
           <img className='hidden sm:block' src='/reviews_desktop.png'></img>
           <img className='sm:hidden' src='/reviews_mobile.png'></img>
-          <div className='sm:hidden py-12'></div>
+          <div className='sm:hidden py-24'></div>
         </div>
 
       </div>

@@ -59,7 +59,7 @@ const Hero = () => {
         </div>
 
         {/* Extra spacing for y-overflow on mobile */}
-        <div className='py-20 sm:hidden'></div>
+        <div className='py-24 sm:hidden'></div>
       </div>
 
       {/* Hamburger menu overlay */}
