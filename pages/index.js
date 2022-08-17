@@ -7,7 +7,10 @@ import CTA from '../components/CTA'
 
 export default function Home() {
   useEffect(() => {
-    document.querySelector('#main').style.height = window.innerHeight + 'px';
+    // +1px so that we always scroll in #main
+    // to prevent whole document scrolling
+    // to prevent address bar collapsing for smoother experience
+    document.querySelector('#main').style.height = window.innerHeight + 1 +'px';
 
     // alert(window.innerHeight);                                     // 772, 640
     // alert(document.documentElement.clientHeight);                  // 772, 640
