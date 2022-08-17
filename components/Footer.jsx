@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div>
-      <div className='z-50 relative bg-[#6E41E2] text-white shadow-inner px-4 sm:px-16 2xl:px-36 py-16 flex justify-between'>
+    <div className='snap-start snap-always'>
+      <div className='relative z-0 bg-[#6E41E2] text-white shadow-inner px-4 py-16 sm:px-16 lg:pb-24 2xl:px-36 flex justify-between'>
 
         <div className='flex flex-col items-center sm:items-start space-y-8 sm:space-y-12'>
 
           <div className='text-center sm:text-left space-y-4 max-w-lg'>
             <p className='text-2xl sm:text-4xl font-bold font-josefin-sans'>About Mypetslife:</p>
             <p className='sm:text-lg'>
-              I am a new pet parent there are many things I&apos;m unaware of but this community in this app is so helpful and amazing. They are always there to answer my queries. I&apos;d recommend everyone to buy this appI am a new pet parent there are many things I&apos;m unaware of but this community in this app is so helpful and amazing. They are always there to answer my queries. I&apos;d recommend everyone to buy this app
+              MyPetsLife is a digital product to help you manage your Pets life with your family. Our goal is to leave the schedule of your pet to be managed by this product. When to feed them, take them for walk, play dates, vets appointments all done by this and send you and your family reminders to manage this.
             </p>
           </div>
 
@@ -55,15 +55,17 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className='lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:bottom-8 text-lg font-semibold text-white'>
+          <p className='lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:bottom-8 sm:text-lg text-white/60 '>
             Copyright@Mypetslife
           </p>
         </div>
 
-        <div className='hidden lg:flex sm:justify-end'>
-          <a target='_blank' rel='noreferrer' href='https://www.instagram.com/mypetslife_pets/'>
-            <img className='lg:h-1/2 xl:h-72 2xl:h-2/3 rounded-2xl shadow-xl cursor-pointer hover:shadow-2xl' src='/insta_grid.png'></img>
-          </a>
+        <div className='hidden lg:flex lg:justify-end'>
+          <div>
+            <a target='_blank' rel='noreferrer' href='https://www.instagram.com/mypetslife_pets/'>
+              <img className='lg:w-[36rem] 2xl:w-[40rem] rounded-2xl shadow-xl cursor-pointer hover:shadow-2xl' src='/insta_grid.png'></img>
+            </a>
+          </div>
           <div className='absolute right-0 bottom-0 -z-10'>
             <svg width="430" height="322" viewBox="0 0 430 322" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M465.28 169.036C488.87 251.938 474.042 337.199 421.133 377.302C368.224 417.405 277.234 412.013 206.801 364.159C136.368 316.305 86.155 225.989 107.723 145.783C129.628 65.5769 223.314 -4.51913 301.161 0.535867C379.345 5.59087 441.353 86.1339 465.28 169.036Z" fill="#2D3436" />

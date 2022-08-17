@@ -1,10 +1,20 @@
+import { useEffect } from 'react'
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Offers from '../components/Offers'
-import Navbar from '../components/Navbar'
+import CTA from '../components/CTA'
 
 export default function Home() {
+  useEffect(() => {
+    document.querySelector('#main').style.height = window.innerHeight + 'px';
+
+    // alert(window.innerHeight);                                     // 772, 640
+    // alert(document.documentElement.clientHeight);                  // 772, 640
+    // alert(document.getElementsByTagName('body')[0].clientHeight);  // 828, 696 --> h-screen (100vh)
+    // alert(screen.height);                                          // 876, 720
+  }, [])
+  
   return (
     <div>
       <Head>
@@ -28,16 +38,12 @@ export default function Home() {
 
       </Head>
 
-      <Navbar />
-      <div className='snap-y snap-mandatory max-h-screen overflow-y-scroll sm:max-h-[none] sm:overflow-y-auto'>
-        <div className='snap-start snap-always'>
-          <Hero />
-        </div>
-        {/* Offers component have individual sections using snap-start and snap-slaways */}
+      {/* Scroll snapping on mobile devices */}
+      <div id='main' className={`snap-y snap-mandatory h-screen overflow-y-scroll sm:max-h-[none] sm:overflow-y-visible`}>
+        <Hero />
         <Offers />
-        <div className='snap-start snap-always'>
-          <Footer />
-        </div>
+        <CTA />
+        <Footer />
       </div>
     </div>
   )

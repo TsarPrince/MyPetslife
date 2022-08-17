@@ -4,7 +4,7 @@ import Reviews from './Reviews'
 
 const Offers = () => {
   useEffect(() => {
-    const offset = 64;
+    const offset = 0;       // = 64 if using h-screen insted of window.innerHeight in #main
     const height = document.querySelector('#calculateHeight').offsetHeight + offset;
     document.querySelector('#phoneOverlay').style.height = height + 'px';
   }, [])
