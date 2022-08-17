@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       {/* Background image */}
-      <div className='sm:absolute bg-[#F7F3FF] flex items-center justify-center sm:space-x-4 sm:h-screen w-full p-8 xl:pl-56'>
+      <div className='sm:absolute bg-[#F7F3FF] flex items-center justify-center sm:space-x-4 sm:h-screen w-full px-8 xl:pl-56'>
         <img className='hidden lg:block sm:h-5/6' src='/home.gif' alt='home gif'></img>
         <img className='sm:h-5/6' src='/home.gif' alt='home gif'></img>
       </div>
@@ -35,7 +35,7 @@ const Hero = () => {
               <p className='text-4xl font-bold'>MyPetslife</p>
             </div>
           </div>
-          <div className='space-y-4 sm:space-y-8'>
+          <div className='space-y-2 sm:space-y-8'>
             <div>
               <p className='font-josefin-sans text-3xl text-center sm:text-left sm:text-5xl font-bold tracking-tight leading-tight'>One stop solution for all your pet needs!</p>
             </div>
