@@ -63,7 +63,7 @@ const Footer = () => {
         <div className='hidden lg:flex lg:justify-end'>
           <div>
             <a target='_blank' rel='noreferrer' href='https://www.instagram.com/mypetslife_pets/'>
-              <img className='lg:w-[36rem] 2xl:w-[40rem] rounded-2xl shadow-xl cursor-pointer hover:shadow-2xl' src='/insta_grid.png'></img>
+              <img className='lg:w-[36rem] rounded-2xl shadow-xl cursor-pointer hover:shadow-2xl' src='/insta_grid.png'></img>
             </a>
           </div>
           <div className='absolute right-0 bottom-0 -z-10'>
