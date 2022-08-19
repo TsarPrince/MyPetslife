@@ -39,7 +39,7 @@ export default function Home() {
         <meta name="twitter:title" content="My Pets Life" />
         <meta name="twitter:description" content="Never Miss Your Pet's Schedule and Activity" />
         {/* <meta name="twitter:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
-        {/* <meta name="twitter:image" content="https://drive.google.com/uc?id=1Ank9LsD6g6KxAOhGGWWF1gmGGDnO-OJD" /> */}
+        <meta name="twitter:image" content="https://drive.google.com/uc?id=1Ank9LsD6g6KxAOhGGWWF1gmGGDnO-OJD" />
 
       </Head>
 
