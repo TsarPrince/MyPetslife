@@ -31,13 +31,15 @@ export default function Home() {
 
         <meta property="og:title" content="My Petslife" />
         <meta property="og:description" content="Never Miss Your Pet's Schedule and Activity" />
-        <meta property="og:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" />
+        {/* <meta property="og:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
+        <meta property="og:image" content="https://drive.google.com/uc?id=1Ank9LsD6g6KxAOhGGWWF1gmGGDnO-OJD" />
         <meta property="og:url" content="https://mypetslifeus.page.link/join" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:title" content="My Pets Life" />
         <meta name="twitter:description" content="Never Miss Your Pet's Schedule and Activity" />
-        <meta name="twitter:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" />
+        {/* <meta name="twitter:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
+        {/* <meta name="twitter:image" content="https://drive.google.com/uc?id=1Ank9LsD6g6KxAOhGGWWF1gmGGDnO-OJD" /> */}
 
       </Head>
 
