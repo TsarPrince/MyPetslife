@@ -10,14 +10,14 @@ export default function Home() {
     // +1px so that we always scroll in #main
     // to prevent whole document scrolling
     // to prevent address bar collapsing for smoother experience
-    document.querySelector('#main').style.height = window.innerHeight + 1 +'px';
+    document.querySelector('#main').style.height = window.innerHeight + 1 + 'px';
 
     // alert(window.innerHeight);                                     // 772, 640
     // alert(document.documentElement.clientHeight);                  // 772, 640
     // alert(document.getElementsByTagName('body')[0].clientHeight);  // 828, 696 --> h-screen (100vh)
     // alert(screen.height);                                          // 876, 720
   }, [])
-  
+
   return (
     <div>
       <Head>
@@ -32,16 +32,21 @@ export default function Home() {
         <meta property="og:title" content="My Petslife" />
         <meta property="og:description" content="Never Miss Your Pet's Schedule and Activity" />
         {/* <meta property="og:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
-        {/* <meta property="og:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" /> */}
-        <meta property="og:image" content="https://drive.google.com/uc?id=142sNzTyItxwI_8ENeeR66ze3CayTeStq&authuser=0" />
+        <meta property="og:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+
         <meta property="og:url" content="https://mypetslifeus.page.link/join" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:title" content="My Pets Life" />
         <meta name="twitter:description" content="Never Miss Your Pet's Schedule and Activity" />
         {/* <meta name="twitter:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
-        {/* <meta name="twitter:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" /> */}
-        <meta name="twitter:image" content="https://drive.google.com/uc?id=142sNzTyItxwI_8ENeeR66ze3CayTeStq&authuser=0" />
+        <meta name="twitter:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" />
+        <meta property="twitter:image:type" content="image/jpg" />
+        <meta property="twitter:image:width" content="1200" />
+        <meta property="twitter:image:height" content="627" />
 
       </Head>
 
