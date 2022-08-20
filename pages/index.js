@@ -33,10 +33,10 @@ export default function Home() {
         <meta property="og:description" content="Never Miss Your Pet's Schedule and Activity" />
         {/* <meta property="og:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
         <meta property="og:image" content="https://s3.ap-south-1.amazonaws.com/techgabbar.com/assets/1200-pets.png" />
-        {/* <meta property="og:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" />
-        <meta property="og:image:type" content="image/jpg" />
+        {/* <meta property="og:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" /> */}
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="627" /> */}
+        <meta property="og:image:height" content="630" />
 
         <meta property="og:url" content="https://mypetslifeus.page.link/join" />
         <meta property="og:type" content="website" />
@@ -45,10 +45,10 @@ export default function Home() {
         <meta name="twitter:description" content="Never Miss Your Pet's Schedule and Activity" />
         {/* <meta name="twitter:image" content="https://d2m3ee76kdhdjs.cloudfront.net/static_assets/1200*630.png" /> */}
         <meta name="twitter:image" content="https://s3.ap-south-1.amazonaws.com/techgabbar.com/assets/1200-pets.png" />
-        {/* <meta name="twitter:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" />
-        <meta property="twitter:image:type" content="image/jpg" />
+        {/* <meta name="twitter:image" content="https://d3vtczj1cfkpaj.cloudfront.net/assets/ogimage-min.jpg" /> */}
+        <meta property="twitter:image:type" content="image/png" />
         <meta property="twitter:image:width" content="1200" />
-        <meta property="twitter:image:height" content="627" /> */}
+        <meta property="twitter:image:height" content="630" />
 
       </Head>
 
