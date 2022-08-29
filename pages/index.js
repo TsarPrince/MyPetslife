@@ -36,8 +36,8 @@ export default function Home() {
         {/* <meta property="og:image" content="https://s3.ap-south-1.amazonaws.com/techgabbar.com/assets/websit-og-image-min.png" /> */}
         <meta property="og:image" content="https://s3.ap-south-1.amazonaws.com/techgabbar.com/assets/wesbite-og-image.png" />
         <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="800" />
+        {/* <meta property="og:image:width" content="800" /> */}
+        {/* <meta property="og:image:height" content="800" /> */}
 
         <meta property="og:url" content="https://mypetslifeus.page.link/join" />
         <meta property="og:type" content="website" />
@@ -49,8 +49,8 @@ export default function Home() {
         {/* <meta name="twitter:image" content="https://s3.ap-south-1.amazonaws.com/techgabbar.com/assets/websit-og-image-min.png" /> */}
         <meta name="twitter:image" content="https://s3.ap-south-1.amazonaws.com/techgabbar.com/assets/wesbite-og-image.png" />
         <meta property="twitter:image:type" content="image/png" />
-        <meta property="twitter:image:width" content="800" />
-        <meta property="twitter:image:height" content="800" />
+        {/* <meta property="twitter:image:width" content="800" /> */}
+        {/* <meta property="twitter:image:height" content="800" /> */}
 
       </Head>
 
